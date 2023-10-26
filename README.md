@@ -60,15 +60,18 @@ Push your changes to your GitHub repository:
 git push oringin <brach-name>
 ```
 <h5>Create a Pull Request:</h5>
-Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.
-
+Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.  
+<br>
 <p> We welcome contributions and encourage you to join our community of learners!</p>
 
 <h2>Our Projects</h2>
-Project 1: Create a Curriculum
+
+<h4>Project 1: </h4>
+Create a Curriculum
 This project involves using your HTML and CSS skills to create a curriculum. It's a great opportunity to apply what you've learned so far.
 
-Project 2: Abstract Project
+<h4>Project 2: </h4>
+Abstract Project
 For this project, we've taken inspiration from frontendpractice.com. It's a fun exercise to further hone your skills.
 
 Feel free to explore and contribute to these projects. Happy coding!
