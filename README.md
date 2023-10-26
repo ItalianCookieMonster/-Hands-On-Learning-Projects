@@ -62,7 +62,7 @@ git push oringin <brach-name>
 <h5>Create a Pull Request:</h5>
 Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.
 
-We welcome contributions and encourage you to join our community of learners!
+<p> We welcome contributions and encourage you to join our community of learners!</p>
 
 <h2>Our Projects</h2>
 Project 1: Create a Curriculum
