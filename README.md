@@ -1,9 +1,9 @@
-Projects for Aspiring Web Developers
+<h1>Projects for Aspiring Web Developers</h1>
 This repository originated from an idea within a Discord study group. We are a community of aspiring web developers who are enthusiastic about learning and challenging ourselves. Within our Discord group, we collaboratively select projects and set deadlines to complete them.
 
 Please note that we are all beginners, and our projects are intentionally simple. They are ideal for individuals looking to practice and apply recently acquired skills.
 
-Technologies
+<h2>Technologies</h2>
 We primarily work with the following technologies (for now 😉):
 
 HTML
@@ -12,12 +12,13 @@ JavaScript
 Objectives
 Our objectives include:
 
-Expanding our knowledge of web development
+<h2>Expanding our knowledge of web development</h2>
 Practicing our coding skills
 Understanding project deliverables and timelines as in real-world scenarios
 Nurturing cooperation and teamwork
 Enhancing our proficiency with Git and GitHub
-How to Contribute
+
+<h2>How to Contribute</h2>
 To contribute to our projects, follow these steps, especially if you are new to Git and GitHub:
 
 Fork the Repository: Click the "Fork" button at the top right of the repository page. This will create a copy of the repository in your GitHub account.
@@ -51,7 +52,7 @@ Create a Pull Request: Go to the original repository on GitHub (the one you fork
 
 We welcome contributions and encourage you to join our community of learners!
 
-Our Projects
+<h2>Our Projects</h2>
 Project 1: Create a Curriculum
 This project involves using your HTML and CSS skills to create a curriculum. It's a great opportunity to apply what you've learned so far.
 
