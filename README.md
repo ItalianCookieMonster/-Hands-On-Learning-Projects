@@ -5,18 +5,23 @@ Please note that we are all beginners, and our projects are intentionally simple
 
 <h2>Technologies</h2>
 We primarily work with the following technologies (for now 😉):
+<br>
+<br>
 
-HTML
-CSS
-JavaScript
-Objectives
+- HTML
+- CSS
+- JavaScript
+
+<h2>Objectives</h2>
 Our objectives include:
+<br>
+<br>
 
-<h2>Expanding our knowledge of web development</h2>
-Practicing our coding skills
-Understanding project deliverables and timelines as in real-world scenarios
-Nurturing cooperation and teamwork
-Enhancing our proficiency with Git and GitHub
+- Expanding our knowledge of web development
+- Practicing our coding skills
+- Understanding project deliverables and timelines as in real-world scenarios
+- Nurturing cooperation and teamwork
+- Enhancing our proficiency with Git and GitHub
 
 <h2>How to Contribute</h2>
 To contribute to our projects, follow these steps, especially if you are new to Git and GitHub:
@@ -59,8 +64,12 @@ Push your changes to your GitHub repository:
 ```bash
 git push oringin <brach-name>
 ```
+
+
 <h5>Create a Pull Request:</h5>
 Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.  
+<br>
+<br>
 <br>
 <p> We welcome contributions and encourage you to join our community of learners!</p>
 
@@ -73,5 +82,7 @@ This project involves using your HTML and CSS skills to create a curriculum. It'
 <h4>Project 2: </h4>
 Abstract Project
 For this project, we've taken inspiration from frontendpractice.com. It's a fun exercise to further hone your skills.
-
+<br>
+<br>
+<br>
 Feel free to explore and contribute to these projects. Happy coding!
