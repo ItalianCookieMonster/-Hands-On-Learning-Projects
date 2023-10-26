@@ -21,34 +21,42 @@ Enhancing our proficiency with Git and GitHub
 <h2>How to Contribute</h2>
 To contribute to our projects, follow these steps, especially if you are new to Git and GitHub:
 
-Fork the Repository: Click the "Fork" button at the top right of the repository page. This will create a copy of the repository in your GitHub account.
+<h5>Fork the Repository:</h5> 
+Click the "Fork" button at the top right of the repository page. This will create a copy of the repository in your GitHub account.
 
-Clone Your Fork: Open your terminal (command prompt) and run the following command to clone your fork to your local machine. Replace <your-username> with your actual GitHub username.
+<h5>Clone Your Fork:</h5> 
+Open your terminal (command prompt) and run the following command to clone your fork to your local machine. Replace <your-username> with your actual GitHub username.
 
-bash
-Copy code
+```bash
 git clone https://github.com/<your-username>/Projects-for-Web-Developers.git
-Navigate to the Project: Use the cd command to move into the project directory. Replace <project-folder> with the project you're interested in.
+```
 
-bash
-Copy code
+<h5>Navigate to the Project:</h5> 
+Use the cd command to move into the project directory. Replace <project-folder> with the project you're interested in.
+```bash
 cd Projects-for-Web-Developers/<project-folder>
-Start Working: Create a new folder with your name and surname, followed by the project number, and begin working on your project. For example:
+```
 
-Copy code
+<h5>Start Working:</h5> 
+Create a new folder with your name and surname, followed by the project number, and begin working on your project. For example:
+```bash
 John-Doe-p1/
-Commit Your Changes: After making changes to your project, commit them locally. Use the following commands:
+```
 
-bash
-Copy code
+<h5>Commit Your Changes:</h5> 
+After making changes to your project, commit them locally. Use the following commands:
+```bash
 git add .
 git commit -m "Your descriptive commit message"
-Push Your Changes: Push your changes to your GitHub repository:
+```
 
-bash
-Copy code
-git push
-Create a Pull Request: Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.
+<h5>Push Your Changes:</h5>
+Push your changes to your GitHub repository:
+```bash
+git push oringin <brach-name>
+```
+<h5>Create a Pull Request:</h5>
+Go to the original repository on GitHub (the one you forked from), and you should see a notification prompting you to create a pull request (PR). Follow the instructions to create the PR.
 
 We welcome contributions and encourage you to join our community of learners!
 
