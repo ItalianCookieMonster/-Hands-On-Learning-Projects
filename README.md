@@ -33,18 +33,21 @@ git clone https://github.com/<your-username>/Projects-for-Web-Developers.git
 
 <h5>Navigate to the Project:</h5> 
 Use the cd command to move into the project directory. Replace <project-folder> with the project you're interested in.
+  
 ```bash
 cd Projects-for-Web-Developers/<project-folder>
 ```
 
 <h5>Start Working:</h5> 
 Create a new folder with your name and surname, followed by the project number, and begin working on your project. For example:
+
 ```bash
 John-Doe-p1/
 ```
 
 <h5>Commit Your Changes:</h5> 
 After making changes to your project, commit them locally. Use the following commands:
+
 ```bash
 git add .
 git commit -m "Your descriptive commit message"
@@ -52,6 +55,7 @@ git commit -m "Your descriptive commit message"
 
 <h5>Push Your Changes:</h5>
 Push your changes to your GitHub repository:
+
 ```bash
 git push oringin <brach-name>
 ```
