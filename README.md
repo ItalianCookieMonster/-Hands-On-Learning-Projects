@@ -77,19 +77,25 @@ Go to the original repository on GitHub (the one you forked from), and you shoul
 
 <h4>Project 1: </h4>
 <strong>Create a Curriculum</strong>
-<strong>Time to deliver:</strong> 4 days;
-
+<br>
+<strong>Timeline:</strong> 4 days;
+<br>
 This project involves using your HTML and CSS skills to create a curriculum. It's a great opportunity to apply what you've learned so far.
 
 <h4>Project 2: </h4>
 <strong>Abstract Project</strong>
-<strong>Time to deliver:</strong> 5 days;
+<br>
+<strong>Timeline:</strong> 5 days;
+<br>
 For this project, we've taken inspiration from frontendpractice.com. It's a fun exercise to further hone your skills.
 
 <h4>Project 3: </h4>
 <strong>Results summary component</strong>
-<strong>Time to deliver:</strong> one week;
-Your challenge is building out this results summary component and getting it as close to the design as possible.
+<br>
+<strong>Timeline:</strong> one week;
+<br>
+Your challenge is building out this results summary component and getting it as close to the design as possible. Design provided by frontendmentor.io.
+
 
 
 <br>
