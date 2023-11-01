@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 120px;
+    cursor: default;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 13vh;
+}
+
+.nav-bar_logo{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nav-bar_menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-bar_menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.nav-bar_menu a:hover{
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+.btn-contact a{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: .5rem 3rem;
+    border-radius: 33px;
+    border: 1px solid black;
+}
+
+.btn-contact a:hover{
+    box-shadow: 1em .5em rgb(0, 0, 0);
+    color: black;
+}
+
+
+
+section{
+    padding-top: 3vh;
+    height: 80vh;
+    min-height: fit-content;
+}
+
+
+#profile,
+#skills,
+#experience,
+#projects,
+#contact{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+#profile{
+    margin-bottom: 2rem;
+}
+
+.profile_img{
+    display: flex;
+    height: 500px;
+    margin: auto;
+}
+
+.celo{
+    position: absolute;
+    top: 175px;
+    left: 236px;
+}
+
+.celo2{
+    position: absolute;
+    top: 175px;
+    left: 570px;
+}
+
+
+.profile_info{
+    align-self: center;
+    text-align: start;
+    width: 600px;
+}
+
+.profile_info h1{
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_info p{
+    padding: 1rem;
+}
+
+.btn_profile{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.btn_profile button{
+    color: black;
+    padding: .5rem 3rem;
+    border: 1px solid black;
+    border-radius: 33px;
+    border: 1px solid;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.btn_profile button:hover{
+    box-shadow: 1em .5em rgb(0, 0, 0);
+}
+
+
+.profile_socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding:1rem;
+}
+
+.profile_socials img{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+
+.section-skills,
+.section-experience,
+.section-projects,
+.section-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-experience_cards{
+    height: 100vh;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.section-title h2{
+    color:black;
+    border-bottom: 1px solid;
+}
+
+.skills-container_right,
+.skills-container_left{
+    padding:1.6rem;
+}
+
+.skills-container:hover{
+    box-shadow: 2em 1em rgb(0, 0, 0);
+}
+
+
+.skills-container_data img{
+    width: 70px;
+    height: 70px;
+}
+
+.skills-container_data{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    gap:1rem;
+    justify-content: center;
+    cursor: default;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    gap:10px;
+}
+
+.cards-container{
+    padding:0 3rem;
+    gap:7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container_box{
+    border:1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    line-height: 3;
+    border-radius: 50px;
+    position: relative;
+}
+
+.cards-container_box:hover{
+    box-shadow: 2em 1em rgb(0, 0, 0);
+}
+
+.number{
+    font-size: 3rem;
+    position: absolute;
+    left: 56px;
+    bottom: 138px;
+    font-weight: 500;
+}
+
+.projects{
+    display: flex;
+    margin:auto;
+    gap: 2rem;
+}
+
+.projects img:hover{
+    border:1px solid black;
+    border-radius: 20px;
+    box-shadow: 2em 1em rgb(0, 0, 0);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap:2.5rem;
+}
+
+.contact p{
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.contact p:hover{
+    box-shadow: 2em 1em rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+span.final-title{
+    font-size: 4rem;
+    font-weight: 500;
+    
+}
+
+
+

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    cursor: default;
+}
+
+
+nav{
+    height: 11vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.nav-logo,
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo p,
+.footer-info h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.nav-logo a,
+.nav-btns a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+
+.nav-logo a{
+    font-size: 1.4rem;
+    border-left: 1px solid white;
+    padding-left: 1rem;
+}
+
+.secondary{
+    border: 1px solid white;
+    background-color: rgb(19, 18, 18);
+    padding:1rem;
+    border-radius:10px;
+}
+
+.primary{
+    background-color: rgb(76 95 213);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+
+}
+
+header{
+    height: 50vh;
+    background-color: rgb(222, 222, 248);
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.header-container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+
+.header-container form{
+    display: flex;
+    justify-content: center;
+}
+
+.header-container input{
+    width: 47rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+form img{
+    position: relative;
+    right: 43px;
+    width: 30px;
+}
+
+.section-container{
+    margin: 70px 120px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.section-container_left,
+.section-container_right{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap:4rem;
+    
+}
+
+
+.icon img{
+    width: 86px;
+    height: 86px;
+}
+
+.section-item{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    height: 230px;
+}
+
+.text p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.learn-btn{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.learn-btn a{
+    text-decoration: none;
+    color: rgb(76 95 213);
+    font-size: 1.3rem;
+}
+
+.learn-btn:hover{
+    text-decoration: underline rgb(76 95 213);
+}
+
+footer{
+    height: 50vh;
+    display: flex;
+    padding: 3rem 6rem;
+    background-color: black;
+    gap: 4rem;
+    position: relative;
+    
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+
+.footer-info h2{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.footer-info a:hover{
+    text-decoration: underline white;
+}
+
+.footer-copy{
+    position: absolute;
+    right: 90px;
+    bottom: 35px;
+}
+
+
+.footer-copy p{
+    color:white;
+    font-size: 1.3rem;
+
+}
