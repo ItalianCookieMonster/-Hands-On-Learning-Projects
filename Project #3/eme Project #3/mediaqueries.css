@@ -1,0 +1,24 @@
+@media screen and (max-width:600px) {
+
+    .container{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    .section_results{
+        border-radius: 0px 0px 30px 30px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body{
+        margin:0;
+    }
+    .section_summary{
+        box-shadow: none;
+    }
+    
+}
+
+
