@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 120px;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    height: 450px;
+    margin: 187px auto;
+    justify-content: space-between;
+}
+
+.section_results{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding:2rem;
+    border-radius: 30px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.section_results h1{
+    align-self: center;
+    color: white;
+    font-size: 24px;
+    opacity: .6;
+}
+
+.section_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.section_number span{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.section_number p{
+    color: white;
+    font-size: 18px;
+    opacity: .6;
+}
+
+
+.section_msg{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.section_msg span{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+.section_msg p{
+    text-align: center;
+    color: white;
+    opacity: .6;
+}
+
+.section_summary{
+    width: 400px;
+    box-shadow: 9px 1em 2em rgba(0, 0, 0, 0.1);
+    border-radius: 0 30px 30px 0;
+    padding: 2rem;
+}
+
+.section_summary_box{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.section_summary_parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.section_sumary_part{
+    display: flex;
+    gap: .5rem;
+}
+.section_summary_score{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.section_red{
+    background-color: hsla(0, 100%, 67%, 0.155);
+}
+.section_yellow{
+    background-color: hsla(39, 100%, 56%, 0.155);
+}
+.section_green{
+    background-color: hsla(166, 100%, 37%, 0.155);
+}
+.section_blue{
+    background-color: hsla(234, 85%, 45%, 0.155);
+}
+
+.section_txt-red{
+    color:hsl(0, 100%, 67%);
+}
+.section_txt-yellow{
+    color:hsl(39, 100%, 56%);
+}
+.section_txt-green{
+    color: hsl(166, 100%, 37%);
+}
+.section_txt-blue{
+    color: hsl(234, 85%, 45%);
+}
+
+.section_summary_score p{
+    opacity: .4;
+}
+
+.btn_continue{
+    width: 100%;
+    padding: .7rem;
+    border-radius: 20px;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border: none;
+    color: white;
+}
+
