@@ -96,6 +96,13 @@ For this project, we've taken inspiration from frontendpractice.com. It's a fun 
 <br>
 Your challenge is building out this results summary component and getting it as close to the design as possible. Design provided by frontendmentor.io.
 
+<h4>Project 4: </h4>
+<strong>Monstercat clone</strong>
+<br>
+<strong>Timeline:</strong> two weeks;
+<br>
+Your challenge is building a clone of the Monstercat page and getting it as close to the design as possible. Design provided by frontendpractice.com.
+
 
 
 <br>
